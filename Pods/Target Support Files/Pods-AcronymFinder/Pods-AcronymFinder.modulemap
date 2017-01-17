@@ -1,0 +1,6 @@
+framework module Pods_AcronymFinder {
+  umbrella header "Pods-AcronymFinder-umbrella.h"
+
+  export *
+  module * { export * }
+}

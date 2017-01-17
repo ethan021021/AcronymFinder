@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3E20FE3B1E2D997D004C31DD"
-               BuildableName = "AcronymFinder.app"
-               BlueprintName = "AcronymFinder"
-               ReferencedContainer = "container:AcronymFinder.xcodeproj">
+               BlueprintIdentifier = "41FA54D12162DAD51D02FC58A2CD5034"
+               BuildableName = "MBProgressHUD.framework"
+               BlueprintName = "MBProgressHUD"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3E20FE3B1E2D997D004C31DD"
-            BuildableName = "AcronymFinder.app"
-            BlueprintName = "AcronymFinder"
-            ReferencedContainer = "container:AcronymFinder.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3E20FE3B1E2D997D004C31DD"
-            BuildableName = "AcronymFinder.app"
-            BlueprintName = "AcronymFinder"
-            ReferencedContainer = "container:AcronymFinder.xcodeproj">
+            BlueprintIdentifier = "41FA54D12162DAD51D02FC58A2CD5034"
+            BuildableName = "MBProgressHUD.framework"
+            BlueprintName = "MBProgressHUD"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3E20FE3B1E2D997D004C31DD"
-            BuildableName = "AcronymFinder.app"
-            BlueprintName = "AcronymFinder"
-            ReferencedContainer = "container:AcronymFinder.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
