@@ -21,6 +21,7 @@ class SearchTableViewController: UITableViewController {
         super.viewDidLoad()
 
         title = "AcronymFinder"
+        tableView.allowsSelection = false
         networkManager.delegate = self
         tableView.dataSource = self
         tableView.delegate = self
@@ -54,14 +55,14 @@ class SearchTableViewController: UITableViewController {
         return cell
     }
     
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
-    }
-    
     func createAndShowBasicAlert(title: String, message: String) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
         present(alert, animated: true, completion: nil)
+    }
+    
+    override func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+        tableView.endEditing(true)
     }
 
     /*
